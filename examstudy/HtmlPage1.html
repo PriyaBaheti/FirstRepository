@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <script type="text/javascript">
+        function validate(){
+        var name = $("#name").val();
+        var pass = $("#pass").val();
+        var date = $("#date")
+        alert("sdfjkgbjsdfgbj");
+        if(name=="")
+        {
+            $("#msg").text("name cant be null");
+            return false;
+        }
+        if (date.after("2012-12-12"))
+            $("#msg").text("sdfgsdfgdfsgf");
+        return true;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <form action="validate.php" onsubmit="return validate()" method="POST">
+
+            Name:<input type="text"  id="name" name="name" /><br /><br />
+            Date:<input type="date" id="date" name="date" /><br /><br />
+            id:<input type="number" id="id" name="id"/>
+            Password:<input id="Pass" type="password" name="pass" /><br /><br />
+            <input id="Submit1" type="submit" value="submit" name="submit" />
+
+        </form>
+    </div>
+    <span id="msg"></span>
+ 
+
+    </body>
+</html>
