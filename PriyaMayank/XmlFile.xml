@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE node1 SYSTEM "XmlFile.dtd">
+<node1>
+<prn>153</prn>
+<name>Priya</name>
+<course>CDAC &lt;DAC&gt;</course>
+<age>23</age>
+<address> Latur
+<housename>SadaSukh</housename>
+<area>Near Shoppers Stop</area>
+</address>
+
+</node1>

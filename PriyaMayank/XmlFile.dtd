@@ -1,0 +1,8 @@
+<!ELEMENT node1 (prn, name, course,age, address) >
+<!ELEMENT prn (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT course (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+
+
